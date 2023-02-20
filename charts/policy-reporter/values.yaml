@@ -128,10 +128,12 @@ reportFilter:
 
 # enable policy-report-ui
 ui:
-  enabled: false
+  enabled: true
+  plugins:
+    kyverno: true
 
 kyvernoPlugin:
-  enabled: false
+  enabled: true
 
 # Settings for the monitoring subchart
 monitoring:
